@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native-elements";
+import { View } from "react-native";
 import tw from "tailwind-react-native-classnames";
 import { createStackNavigator } from "@react-navigation/stack";
 import NavigateCard from "../components/NavigateCard";

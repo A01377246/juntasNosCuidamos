@@ -10,7 +10,7 @@ import { StyleSheet } from 'react-native';
 
 
 // API KEY AIzaSyAkt2zrQVyfmsZN-JU-_NE8OArnQdu6oBI
-const HomeScreen = () =>{
+const HomePasajeroScreen = () =>{
 
   const dispatch = useDispatch();
 
@@ -66,7 +66,7 @@ const HomeScreen = () =>{
     )
 }
 
-export default HomeScreen
+export default HomePasajeroScreen
 
 const styles = StyleSheet.create({
   text:{

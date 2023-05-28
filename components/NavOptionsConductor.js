@@ -23,14 +23,15 @@ const data = [
 
     {
         id: "3",
-        title: "Rutas",
+        title: "Mis viajes",
         image: "https://th.bing.com/th/id/R.0cfc51d383b272f7c359babaf0f15f63?rik=cDdkGWwkba9yKw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_409323.png&ehk=bqmHtRFAuv4MxtLyNMCVvT%2f96WkArgcqEBJTQ%2f0hoV4%3d&risl=&pid=ImgRaw&r=0",
-        screen: "PasajerosScreen"
+        screen: "ViajesScreen"
     
-    }
+    },
+
 ]
 
-const NavOptions = () =>{ 
+const NavOptionsConductor = () =>{ 
     const navigation = useNavigation();
 
     return(
@@ -67,5 +68,5 @@ const NavOptions = () =>{
     );
 };
 
-export default NavOptions;
+export default NavOptionsConductor;
 
